@@ -4,7 +4,6 @@ body {
 }
 
 .header {
-    font-size: 24px;
     height: 72px;
     padding: 0 128px;
     margin: 0px;
@@ -13,6 +12,13 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-style: italic;
+    color: darkcyan;
+    font;
 }
 
 a {
@@ -34,6 +40,7 @@ li {
     flex-direction: row;
     align-items: center;
     gap: 16px;
+    flex-wrap: nowrap;
 }
 .hero {
     padding: 16px 128px;
@@ -83,6 +90,7 @@ button {
 .hero-image {
     height: 280px;
     width: 520px;
+    border-radius: 0 0 0 64px;
 }
 
 .option-cards {
